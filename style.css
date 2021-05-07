@@ -9,7 +9,7 @@
     margin: 0;
     font-family: var(--roboto);
     color: var(--secondary);
-    transition: ease-in, 300ms;
+    transition: ease-in, 400ms;
 }
 
 body {

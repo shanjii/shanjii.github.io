@@ -2,11 +2,50 @@
     background-color: var(--navbar);
     width: 100px;
     height: 100vh;
+    flex-direction: column;
+}
+
+#navbar:hover {
+    width: 200px;
+}
+
+.navbar-item:hover .navbar-text {
+    display: flex;
+    color: var(--primary);
+}
+
+.navbar-item:hover .svg-color {
+    fill: var(--primary);
 }
 
 #lights {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 17px;
     margin-top: auto;
-    margin-bottom: 10%;    
+    margin-bottom: 10px;
+}
+
+.navbar-item {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+
+.navbar-icon {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+.navbar-text {
+    display: none;
+    margin-top: auto;
+    margin-left: 30px;
+    color: var(--secondary);
+    margin-bottom: auto;
+}
+
+.navbar-item:hover {
+    color: var(--primary);
+    background-color: var(--secondary);
 }
