@@ -1,16 +1,28 @@
 #navbar {
     background-color: var(--navbar);
+    transition: linear, 150ms;
     width: 100px;
     height: 100vh;
     flex-direction: column;
 }
 
 #navbar:hover {
+    width: 250px;
+}
+
+#navbar:hover #profile-image {
     width: 200px;
 }
 
-.navbar-item:hover .navbar-text {
+#navbar:hover #lights {
+    opacity: 100%;
+}
+
+#navbar:hover .navbar-text{
     display: flex;
+}
+
+.navbar-item:hover .navbar-text {
     color: var(--primary);
 }
 
@@ -19,22 +31,51 @@
 }
 
 #lights {
-    margin-left: 17px;
+    opacity: 30%;
+    margin-left: 20px;
+    transition: linear, 100ms;
+}
+
+#navbar-item-container{
     margin-top: auto;
-    margin-bottom: 10px;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-image {
+    position: absolute;
+    top: 10px;
+    width: 70px;
+    border-width: 2px;
+    transition: linear, 150ms;
+    margin-left: 10px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: var(--secondary);
+}
+
+#profile-image:hover {
+    opacity: 50%;
 }
 
 .navbar-item {
     display: flex;
+    cursor: pointer;
     width: 100%;
     height: 100px;
 }
-
 
 .navbar-icon {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 20px;
+}
+
+#navbar-lights {
+    display: flex;
+    margin-bottom: 10px;
+    height: auto;
 }
 
 .navbar-text {
