@@ -1,5 +1,5 @@
-const text1 = 'Victor'
-const text2 = 'Teste'
+const text1 = '<Victor_Aro/>'
+const text2 = 'Fullstack Developer.'
 const timing = 100
 
 const array1 = text1.split('')
@@ -47,11 +47,9 @@ Vue.component('typing-effect', {
     },
     template:
         `
-<div>
     <section>
         <h1>{{this.line1}}</h1>
-        <h1>{{this.line2}}</h1>
+        <h3>{{this.line2}}</h3>
     </section>
-</div>
 `
 })

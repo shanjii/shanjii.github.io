@@ -1,0 +1,12 @@
+#navbar {
+    background-color: var(--navbar);
+    width: 100px;
+    height: 100vh;
+}
+
+#lights {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 10%;    
+}

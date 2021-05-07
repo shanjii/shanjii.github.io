@@ -1,0 +1,63 @@
+:root {
+    --primary: rgb(231, 231, 231);
+    --navbar: rgb(218, 218, 218);
+    --secondary: rgb(39, 39, 39);
+    --roboto: 'Roboto'
+}
+
+* {
+    margin: 0;
+    font-family: var(--roboto);
+    color: var(--secondary);
+    transition: ease-in, 300ms;
+}
+
+body {
+    background-image: url('/assets/background.png');
+    background-attachment: fixed;
+    background-color: var(--primary);
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#typing-effect-container {
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#typing-effect-container>h1 {
+    font-size: 2.2rem;
+}
+
+#typing-effect-container>h3 {
+    font-size: 1.4rem;
+}
+
+#navbar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media(min-width: 1024px) {
+    #navbar {
+        display: flex;
+    }
+    #typing-effect-container {
+        margin-top: 5vh;
+        margin-left: 200px;
+        margin-right: auto;
+    }
+    #typing-effect-container>h1 {
+        font-size: 8rem;
+    }
+    #typing-effect-container>h3 {
+        font-size: 4rem;
+    }
+}
