@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <meta name="theme-color" content="var(--secondary)" />
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -20,6 +21,9 @@
     <!-- Navbar -->
     <script src="/components/navbar/navbar.js"></script>
     <link rel="stylesheet" href="/components/navbar/style.css">
+    <!-- Navbar Mobile -->
+    <script src="/components/navbar-mobile/navbar-mobile.js"></script>
+    <link rel="stylesheet" href="/components/navbar-mobile/style.css">
 </head>
 
 <body>
@@ -28,6 +32,8 @@
             <typing-effect id="typing-effect-container"></typing-effect>
         </section>
         <navbar id="navbar"></navbar>
+        <navbar-mobile id="navbar-mobile"></navbar-mobile>
+        <lights id="lights-mobile"></lights>
     </div>
 </body>
 

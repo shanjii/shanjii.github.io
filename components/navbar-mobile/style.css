@@ -1,0 +1,28 @@
+#navbar-mobile {
+    background-color: var(--secondary);
+    width: 100vw;
+    height: 65px;
+}
+
+.profile-image-mobile-container {
+    display: flex;
+}
+
+#profile-image-mobile {
+    width: 50px;
+    border-radius: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navbar-mobile-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.navbar-mobile-items {
+    margin-top: auto;
+    margin-bottom: auto;
+}

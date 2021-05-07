@@ -25,7 +25,7 @@ body {
 }
 
 #typing-effect-container {
-    margin-top: 10vh;
+    margin-top: 20vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,6 +36,18 @@ body {
 
 #typing-effect-container>h3 {
     font-size: 1.4rem;
+}
+
+#navbar-mobile {
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+
+#lights-mobile {
+    position: absolute;
+    top: 80px;
+    right: 10px;
 }
 
 #navbar {
@@ -59,5 +71,11 @@ body {
     }
     #typing-effect-container>h3 {
         font-size: 4rem;
+    }
+    #lights-mobile {
+        display: none;
+    }
+    #navbar-mobile {
+        display: none;
     }
 }
