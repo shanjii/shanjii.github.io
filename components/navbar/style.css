@@ -14,10 +14,6 @@
     width: 200px;
 }
 
-#navbar:hover #lights {
-    opacity: 100%;
-}
-
 #navbar:hover .navbar-text{
     display: flex;
 }
@@ -31,7 +27,6 @@
 }
 
 #lights {
-    opacity: 30%;
     margin-left: 20px;
     transition: linear, 100ms;
 }

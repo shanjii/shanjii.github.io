@@ -8,7 +8,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Portfolio</title>
     <meta name="theme-color" content="#272727" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -24,6 +24,9 @@
     <!-- Navbar Mobile -->
     <script src="/components/navbar-mobile/navbar-mobile.js"></script>
     <link rel="stylesheet" href="/components/navbar-mobile/style.css">
+    <!-- Cards -->
+    <script src="/components/cards/cards.js"></script>
+    <link rel="stylesheet" href="/components/cards/cards.css">
 </head>
 
 <body>
@@ -31,6 +34,10 @@
         <section id="banner">
             <typing-effect id="typing-effect-container"></typing-effect>
         </section>
+        <cards></cards>
+        <!-- <div>
+            <card></card>
+        </div> -->
         <navbar id="navbar"></navbar>
         <navbar-mobile id="navbar-mobile"></navbar-mobile>
         <lights id="lights-mobile"></lights>

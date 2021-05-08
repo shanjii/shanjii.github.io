@@ -1,0 +1,42 @@
+.card-container {
+    width: 400px;
+    height: 300px;
+    opacity: 0;
+    position: relative;
+    top: -50px;
+    background-color: var(--secondary);
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+#card-area {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 5vw;
+}
+
+.window-label {
+    display: flex;
+    height: 8%;
+    background-color: var(--navbar);
+}
+
+.window-text {
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--secondary);
+}
+
+.window-btn-container {
+    display: flex;
+    margin-left: auto;
+}
+
+.window-btn {
+    margin-top: auto;
+    margin-right: 10px;
+    margin-bottom: auto;
+    color: var(--secondary);
+}

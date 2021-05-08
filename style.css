@@ -21,12 +21,12 @@ body {
 #banner {
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 #typing-effect-container {
     margin-top: 20vh;
     margin-left: auto;
+    height: 150px;
     margin-right: auto;
 }
 
@@ -64,6 +64,7 @@ body {
     #typing-effect-container {
         margin-top: 5vh;
         margin-left: 200px;
+        height: 300px;
         margin-right: auto;
     }
     #typing-effect-container>h1 {
