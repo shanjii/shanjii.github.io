@@ -1,6 +1,7 @@
 #navbar-mobile {
     background-color: var(--secondary);
     width: 100vw;
+    z-index: 10;
     height: 65px;
 }
 
