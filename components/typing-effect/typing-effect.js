@@ -1,5 +1,5 @@
-const text1 = 'Giovanni'
-const text2 = 'Chupa pinto'
+const text1 = '<Victor_Aro/>'
+const text2 = 'Fullstack Developer.'
 const timing = 100
 
 const array1 = text1.split('')
