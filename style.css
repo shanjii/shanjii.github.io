@@ -1,7 +1,7 @@
 :root {
     --primary: #e7e7e7;
     --navbar: #dadada;
-    --secondary: #272727;
+    --secondary: #303030;
     --roboto: 'Roboto'
 }
 
@@ -31,11 +31,11 @@ body {
 }
 
 #typing-effect-container>h1 {
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 
 #typing-effect-container>h3 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 #navbar-mobile {
