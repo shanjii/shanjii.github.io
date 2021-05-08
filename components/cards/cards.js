@@ -31,7 +31,7 @@ animate: function () {
 template:
 `
 <div id="card-area">
-    <a href="https://github.com/shanjii/Dynamic-Space">
+    <a class="href-margin" href="https://github.com/shanjii/Dynamic-Space">
         <section class="card-container">
             <section class="window-label">
                 <span class="label-text">_Dynamic Space</span>
@@ -82,7 +82,7 @@ template:
             </section>
         </section>
     </a>
-    <a href="https://github.com/shanjii/League-Checker">
+    <a class="href-margin" href="https://github.com/shanjii/League-Checker">
         <section class="card-container">
             <section class="window-label">
                 <span class="label-text">_League Checker</span>
@@ -121,7 +121,7 @@ template:
             </section>
         </section>
     </a>
-    <a href="https://github.com/shanjii/Taagra-Font-Renderer">
+    <a class="href-margin" href="https://github.com/shanjii/Taagra-Font-Renderer">
         <section class="card-container">
             <section class="window-label">
                 <span class="label-text">_Taagra Font Renderer</span>
@@ -160,7 +160,7 @@ template:
             </section>
         </section>
     </a>
-    <a href="https://github.com/shanjii/shanjii.github.io">
+    <a class="href-margin" href="https://github.com/shanjii/shanjii.github.io">
         <section class="card-container">
             <section class="window-label">
                 <span class="label-text">_My Portfolio</span>
