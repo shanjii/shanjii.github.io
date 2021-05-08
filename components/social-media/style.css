@@ -1,3 +1,9 @@
 .social-media-icon {
-    margin-left: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.social-media-icon:hover {
+    transition: ease-in, 200ms;
+    transform: translateY(5px);
 }
