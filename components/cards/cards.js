@@ -34,10 +34,10 @@ template:
     <a class="href-margin" href="https://github.com/shanjii/Dynamic-Space">
         <section class="card-container">
             <section class="window-label">
-                <span class="label-text">_Dynamic Space</span>
+                <span class="label-text">//Dynamic Space</span>
             </section>
             <section class="window.text-container">
-                <h1 class="window-text">About:</h1>
+                <h1 class="window-text">About the project:</h1>
                 <p class="window-text">This application integrates both Electron and React frameworks in an effort to
                     develop a Plug and Play solution to Cloud service deployments in Azure.</p>
             </section>
@@ -85,10 +85,10 @@ template:
     <a class="href-margin" href="https://github.com/shanjii/League-Checker">
         <section class="card-container">
             <section class="window-label">
-                <span class="label-text">_League Checker</span>
+                <span class="label-text">//League Checker</span>
             </section>
             <section class="window.text-container">
-                <h1 class="window-text">About:</h1>
+                <h1 class="window-text">About the project:</h1>
                 <p class="window-text">React Native Android application for retrieving players statistics from Riot
                     Games
                     API.</p>
@@ -124,10 +124,10 @@ template:
     <a class="href-margin" href="https://github.com/shanjii/Taagra-Font-Renderer">
         <section class="card-container">
             <section class="window-label">
-                <span class="label-text">_Taagra Font Renderer</span>
+                <span class="label-text">//Taagra Font Renderer</span>
             </section>
             <section class="window.text-container">
-                <h1 class="window-text">About:</h1>
+                <h1 class="window-text">About the project:</h1>
                 <p class="window-text">Simple website tool for rendering a PNG file of the fictional language script
                     "Ta'agra".
                 </p>
@@ -163,10 +163,10 @@ template:
     <a class="href-margin" href="https://github.com/shanjii/shanjii.github.io">
         <section class="card-container">
             <section class="window-label">
-                <span class="label-text">_My Portfolio</span>
+                <span class="label-text">//My Portfolio</span>
             </section>
             <section class="window.text-container">
-                <h1 class="window-text">About:</h1>
+                <h1 class="window-text">About the project:</h1>
                 <p class="window-text">This portfolio website, created to practice animations, Vue and
                     function as a place for me to keep all my current and future personal projects.</p>
             </section>
