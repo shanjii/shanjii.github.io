@@ -9,18 +9,26 @@
     margin: 0;
     font-family: var(--roboto);
     color: var(--secondary);
-    transition: ease-in, 400ms;
 }
 
 body {
     background-image: url('/assets/background.png');
     background-attachment: fixed;
+    transition: ease-in, 400ms;
     background-color: var(--primary);
 }
 
 #banner {
     display: flex;
     flex-direction: column;
+}
+
+#social-media {
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #typing-effect-container {

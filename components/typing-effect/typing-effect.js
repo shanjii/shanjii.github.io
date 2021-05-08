@@ -1,6 +1,6 @@
 const text1 = '<Victor_Aro/>'
 const text2 = 'Fullstack Developer.'
-const timing = 100
+const timing = 50
 
 const array1 = text1.split('')
 const array2 = text2.split('')
