@@ -33,7 +33,7 @@ Vue.component('lights', {
     themeLight: function () {
       document.documentElement.style.setProperty('--primary', '#e7e7e7');
       document.documentElement.style.setProperty('--secondary', '#272727');
-      document.documentElement.style.setProperty('--navbar', '#dadada');
+      document.documentElement.style.setProperty('--navbar', '#d4d4d4');
     }
   },
   template:
