@@ -14,7 +14,7 @@ template:
 `
 <section>
     <section class="navbar-profile">
-        <img id="profile-image" src="/assets/siirto_jo.png" alt="">
+        <img id="profile-image" src="/assets/victor.jpg" alt="">
     </section>
     <div id="navbar-item-container">
         <a href="https://github.com/shanjii">
