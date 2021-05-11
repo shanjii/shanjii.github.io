@@ -11,7 +11,7 @@
 }
 
 #navbar:hover #profile-image {
-    width: 200px;
+    width: 223px;
 }
 
 #navbar:hover .navbar-text{
@@ -41,7 +41,7 @@
 #profile-image {
     position: absolute;
     top: 10px;
-    width: 70px;
+    width: 75px;
     border-width: 2px;
     transition: linear, 150ms;
     margin-left: 10px;
