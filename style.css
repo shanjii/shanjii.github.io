@@ -2,7 +2,6 @@
     --primary: #e7e7e7;
     --navbar: #d4d4d4;
     --secondary: #303030;
-    --roboto: 'Roboto'
 }
 
 ::-webkit-scrollbar {
@@ -17,9 +16,14 @@
     background-color: var(--secondary);
 }
 
+@font-face {
+    font-family: ProFont;
+    src: url("./assets/fonts/ProFontWindows.ttf");
+}
+
 * {
     margin: 0;
-    font-family: var(--roboto);
+    font-family: "ProFont";
     color: var(--secondary);
     user-select: none;
     -webkit-user-drag: none;
@@ -49,8 +53,8 @@ body {
 
 #typing-effect-container {
     margin-top: 20vh;
-    margin-left: auto;
-    height: 150px;
+    margin-left: 10px;
+    height: auto;
     margin-right: auto;
 }
 
@@ -61,6 +65,13 @@ body {
 #typing-effect-container>h3 {
     font-size: 1.8rem;
 }
+
+#typing-effect-container>h3:last-child {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 
 #navbar-mobile {
     display: flex;
@@ -110,7 +121,7 @@ body {
     #typing-effect-container {
         margin-top: 5vh;
         margin-left: 200px;
-        height: 300px;
+        height: auto;
         margin-right: auto;
     }
     #typing-effect-container>h1 {
@@ -118,6 +129,11 @@ body {
     }
     #typing-effect-container>h3 {
         font-size: 4rem;
+    }
+    #typing-effect-container>h3:last-child {
+        font-size: 4rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     #lights-mobile {
         display: none;

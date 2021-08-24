@@ -27,7 +27,7 @@ template:
                             fill="var(--secondary)" />
                     </svg>
                 </span>
-                <p class="navbar-text">Profile</p>
+                <p class="navbar-text">Github</p>
             </section>
         </a>
         <a href="https://github.com/shanjii?tab=repositories">

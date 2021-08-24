@@ -1,22 +1,23 @@
-const text1 = '<Victor_Aro/>'
-const text2 = 'Fullstack Developer.'
-const timing = 50
+const text1 = 'VICTOR_ARO'
+const text2 = 'fullstack developer'
+const text3 = 'my projects'
+const timing = 60
 
-const array1 = text1.split('')
-const array2 = text2.split('')
+
 Vue.component('typing-effect', {
     data: function () {
         return {
             line1: '',
-            line2: ''
+            line2: '',
+            line3: ''
         }
     },
     created: function () {
         var i = 0;
         var completeLine1 = setInterval(() => {
-            this.line1 = this.line1 + array1[i];
+            this.line1 = this.line1 + text1[i];
             i++;
-            if (i === array1.length) {
+            if (i === text1.length) {
                 clearInterval(completeLine1);
                 line2();
             }
@@ -24,9 +25,20 @@ Vue.component('typing-effect', {
         line2 = () => {
             i = 0;
             var completeLine2 = setInterval(() => {
-                this.line2 = this.line2 + array2[i];
+                this.line2 = this.line2 + text2[i];
                 i++;
-                if (i === array2.length) {
+                if (i === text2.length) {
+                    clearInterval(completeLine2);
+                    line3();
+                }
+            }, timing);
+        }
+        line3 = () => {
+            i = 0;
+            var completeLine2 = setInterval(() => {
+                this.line3 = this.line3 + text3[i];
+                i++;
+                if (i === text3.length) {
                     clearInterval(completeLine2);
                     endEffect();
                 }
@@ -36,13 +48,13 @@ Vue.component('typing-effect', {
             var alternate = true
             setInterval(() => {
                 if (alternate) {
-                    this.line2 = text2 + ' |'
+                    this.line2 = text2 + '_'
                     alternate = false
                 } else {
                     this.line2 = text2
                     alternate = true
                 }
-            }, 600);
+            }, 200);
         }
     },
     template:
@@ -50,6 +62,7 @@ Vue.component('typing-effect', {
     <section>
         <h1>{{this.line1}}</h1>
         <h3>{{this.line2}}</h3>
+        <h3>{{this.line3}}</h3>
     </section>
 `
 })

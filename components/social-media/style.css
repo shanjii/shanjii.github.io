@@ -1,9 +1,9 @@
 .social-media-icon {
     cursor: pointer;
     padding: 10px;
+    transition: ease-in, 200ms;
 }
 
 .social-media-icon:hover {
-    transition: ease-in, 200ms;
     transform: translateY(5px);
 }
