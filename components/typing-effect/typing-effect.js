@@ -30,6 +30,7 @@ Vue.component('typing-effect', {
                 if (i === text2.length) {
                     clearInterval(completeLine2);
                     line3();
+                    endEffect();
                 }
             }, timing);
         }
@@ -40,7 +41,6 @@ Vue.component('typing-effect', {
                 i++;
                 if (i === text3.length) {
                     clearInterval(completeLine2);
-                    endEffect();
                 }
             }, timing);
         }
@@ -54,7 +54,7 @@ Vue.component('typing-effect', {
                     this.line2 = text2
                     alternate = true
                 }
-            }, 200);
+            }, 400);
         }
     },
     template:

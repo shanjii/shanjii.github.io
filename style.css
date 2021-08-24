@@ -132,8 +132,8 @@ body {
     }
     #typing-effect-container>h3:last-child {
         font-size: 4rem;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 60px;
+        margin-bottom: 20px;
     }
     #lights-mobile {
         display: none;
