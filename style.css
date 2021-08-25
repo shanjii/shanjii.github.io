@@ -37,10 +37,14 @@ a {
 
 body {
     display: flex;
+}
+
+#body-background{
     background-image: url('./assets/dots.png'), url('./assets/background.png');
     background-position: right bottom, left top;
     background-attachment: fixed;
     transition: ease-in, 400ms;
+    height: 100%;
     background-color: var(--background);
 }
 
@@ -226,6 +230,7 @@ body {
     #line-pattern {
         display: flex;
         width: 10px;
+        min-width: 10px;
         position: relative;
         filter: invert(100);
         left: 140px;
