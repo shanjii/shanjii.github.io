@@ -40,15 +40,9 @@ body {
     background-image: url('./assets/dots.png'), url('./assets/background.png');
     background-position: right bottom, left top;
     background-attachment: fixed;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
     transition: ease-in, 400ms;
     background-color: var(--background);
 }
-
-html {
-    height: -webkit-fill-available;
-  }
 
 #banner {
     display: flex;
@@ -62,8 +56,7 @@ html {
     width: 10px;
     position: fixed;
     filter: invert(100);
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
+    height: 150vh;
     right: 0px;
     background-image: url('./assets/line.png');
 }
