@@ -114,6 +114,7 @@ body {
 .aboutme-container {
     transition: ease-in 400ms;
     margin-left: 20px;
+    margin-right: 20px;
     opacity: 0;
 }
 
