@@ -1,7 +1,7 @@
 const text1 = 'VICTOR_ARO'
 const text2 = 'fullstack developer'
 const text3 = 'ABOUT ME'
-const timing = 60
+const timing = 50
 
 
 Vue.component('typing-effect', {
@@ -29,7 +29,9 @@ Vue.component('typing-effect', {
                 i++;
                 if (i === text2.length) {
                     clearInterval(completeLine2);
-                    line3();
+                    setTimeout(() => {
+                        line3();
+                    }, 200);
                     endEffect();
                 }
             }, timing);
