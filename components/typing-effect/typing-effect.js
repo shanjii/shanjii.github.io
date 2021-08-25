@@ -1,5 +1,5 @@
 const text1 = 'VICTOR_ARO'
-const text2 = 'fullstack developer'
+const text2 = 'Fullstack Developer'
 const text3 = 'ABOUT ME'
 const timing = 50
 
