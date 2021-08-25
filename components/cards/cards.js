@@ -40,6 +40,7 @@ Vue.component('cards', {
         <section class="card-container">
             <section class="window-label">
                 <span class="label-text">//dynamic_space</span>
+                <span class="label-text-icon">- X</span>
             </section>
             <section class="window.text-container">
                 <h1 class="window-text">About the project:</h1>
@@ -91,6 +92,7 @@ Vue.component('cards', {
         <section class="card-container">
             <section class="window-label">
                 <span class="label-text">//league_checker</span>
+                <span class="label-text-icon">- X</span>
             </section>
             <section class="window.text-container">
                 <h1 class="window-text">About the project:</h1>
@@ -130,6 +132,7 @@ Vue.component('cards', {
         <section class="card-container">
             <section class="window-label">
                 <span class="label-text">//taagra_font_renderer</span>
+                <span class="label-text-icon">- X</span>
             </section>
             <section class="window.text-container">
                 <h1 class="window-text">About the project:</h1>
@@ -169,6 +172,8 @@ Vue.component('cards', {
         <section class="card-container">
             <section class="window-label">
                 <span class="label-text">//my_portfolio</span>
+                <span class="label-text-icon">- X</span>
+
             </section>
             <section class="window.text-container">
                 <h1 class="window-text">About the project:</h1>

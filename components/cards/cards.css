@@ -35,7 +35,7 @@
 .window-label {
     display: flex;
     transition: ease-in, 400ms;
-    height: 8%;
+    height: 25px;
     background-color: var(--navbar);
 }
 
@@ -59,6 +59,7 @@
 .window-text {
     color: var(--primary);
     padding: 10px;
+    font-size: 1.2rem;
 }
 
 .label-text {
@@ -66,6 +67,13 @@
     margin-top: auto;
     margin-bottom: auto;
     color: var(--secondary);
+}
+
+.label-text-icon {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
 }
 
 .window-btn-container {

@@ -68,6 +68,34 @@ body {
     margin-right: auto;
 }
 
+.card-container-profile {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: var(--secondary);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.my-picture {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    background-image: url('./assets/victor.jpg');
+    background-size: cover;
+}
+
+.svg-list {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.aboutme-container>div {
+    display: flex;
+}
+
 #typing-effect-container>h1 {
     font-size: 3rem;
 }
@@ -93,6 +121,8 @@ body {
     margin-top: 0px;
     margin-bottom: 50px;
 }
+
+
 
 .aboutme-container>h3 {
     font-size: 1.8rem;
@@ -169,7 +199,7 @@ body {
     }
     #typing-effect-container>h3:last-child {
         font-size: 4rem;
-        margin-top: 60px;
+        margin-top: 80px;
     }
     #lights-mobile {
         display: none;
@@ -206,6 +236,17 @@ body {
         margin-left: 200px;
         width: 70%;
     }
+    .aboutme-container>div {
+        display: flex;
+    }
+
+    .svg-list {
+        margin-top: auto;
+        flex-direction: row;
+        height: auto;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
 
     .aboutme-container>h3 {
         font-size: 4rem;
@@ -215,7 +256,7 @@ body {
     
     .aboutme-container>p {
         font-size: 2rem;
-        margin-bottom: 100px;
+        margin-bottom: 10px;
     }
 
     .info {
@@ -228,5 +269,21 @@ body {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+    }
+    .card-container-profile {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        background-color: var(--secondary);
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+    .my-picture {
+        width: 90%;
+        height: 80%;
+        margin: auto;
+        background-image: url('./assets/victor.jpg');
+        background-size: cover;
     }
 }
