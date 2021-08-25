@@ -27,13 +27,15 @@ Vue.component('lights', {
     },
     themeDark: function () {
       document.documentElement.style.setProperty('--primary', '#303030');
-      document.documentElement.style.setProperty('--secondary', '#e7e7e7');
+      document.documentElement.style.setProperty('--secondary', '#f0f0f0');
+      document.documentElement.style.setProperty('--background', '#303030');
       document.documentElement.style.setProperty('--navbar', '#272727');
       document.getElementById("line-pattern").style.filter = "invert(0)"
     },
     themeLight: function () {
-      document.documentElement.style.setProperty('--primary', '#e7e7e7');
+      document.documentElement.style.setProperty('--primary', '#f0f0f0');
       document.documentElement.style.setProperty('--secondary', '#303030');
+      document.documentElement.style.setProperty('--background', '#f0f0f0');
       document.documentElement.style.setProperty('--navbar', '#d4d4d4');
       document.getElementById("line-pattern").style.filter = "invert(100)"
     }
