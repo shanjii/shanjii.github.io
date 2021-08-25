@@ -227,6 +227,7 @@ body {
         color: var(--secondary);
         position: fixed;
         left: 140px;
+        user-select: none;
         top: 90vh;
         transform: rotate(-90deg);
     }
