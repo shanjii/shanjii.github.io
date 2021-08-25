@@ -1,6 +1,10 @@
 window.onload = function () {
-    var scroll
+    var scroll = window.scrollY
+    animate()
     window.onscroll = function () {
+        animate()
+    }
+    function animate() {
         scroll = window.scrollY
         console.log(scroll)
         if (scroll > 100) {

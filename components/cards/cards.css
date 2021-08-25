@@ -132,7 +132,7 @@
 
 @media(max-width: 460px) {
     .card-container {
-        width: 95vw;
+        width: 90vw;
         height: 300px;
         opacity: 0;
         position: relative;

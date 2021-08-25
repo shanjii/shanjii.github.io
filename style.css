@@ -40,9 +40,15 @@ body {
     background-image: url('./assets/dots.png'), url('./assets/background.png');
     background-position: right bottom, left top;
     background-attachment: fixed;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     transition: ease-in, 400ms;
     background-color: var(--background);
 }
+
+html {
+    height: -webkit-fill-available;
+  }
 
 #banner {
     display: flex;
@@ -52,11 +58,14 @@ body {
 }
 
 #line-pattern {
-    display: none;
-}
-
-#line-pattern-scroll {
-    display: none;
+    display: flex;
+    width: 10px;
+    position: fixed;
+    filter: invert(100);
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    right: 0px;
+    background-image: url('./assets/line.png');
 }
 
 #typing-effect-container {
@@ -177,6 +186,13 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+    #line-pattern-scroll {
+        position: absolute;
+        top: 300px;
+        user-select: none;
+        transform: rotate(-90deg);
+        right: -3px;
+    }
 }
 
 @media(min-width: 1024px) {
@@ -186,7 +202,7 @@ body {
     #typing-effect-container {
         margin-top: 10px;
         margin-left: 200px;
-        height: auto;
+        height: 386px;
         margin-right: auto;
     }
     #typing-effect-container>h1 {
