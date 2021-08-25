@@ -3,7 +3,7 @@ window.onload = function () {
     window.onscroll = function () {
         scroll = window.scrollY
         console.log(scroll)
-        if (scroll > 60) {
+        if (scroll > 100) {
             var card = document.getElementsByClassName('card-container');
             var i = 0
             var animateCards = setInterval(() => {

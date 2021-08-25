@@ -1,7 +1,7 @@
 const text1 = 'VICTOR_ARO'
 const text2 = 'fullstack developer'
 const text3 = 'ABOUT ME'
-const timing = 40
+const timing = 60
 
 
 Vue.component('typing-effect', {
