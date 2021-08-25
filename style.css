@@ -187,7 +187,7 @@ html {
         margin-right: auto;
     }
     #line-pattern-scroll {
-        position: absolute;
+        position: fixed;
         top: 300px;
         user-select: none;
         transform: rotate(-90deg);
