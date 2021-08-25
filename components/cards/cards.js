@@ -1,17 +1,22 @@
 window.onload = function () {
-    setTimeout(function () {
-        var card = document.getElementsByClassName('card-container');
-        var i = 0
-        var animateCards = setInterval(() => {
-            card[i].style.opacity = 100
-            card[i].style.top = 0
-            card[i].style.cursor = 'pointer'
-            i++;
-            if (i === card.length) {
-                clearInterval(animateCards);
-            }
-        }, 500);
-    }, 1700)
+    var scroll
+    window.onscroll = function () {
+        scroll = window.scrollY
+        console.log(scroll)
+        if (scroll > 60) {
+            var card = document.getElementsByClassName('card-container');
+            var i = 0
+            var animateCards = setInterval(() => {
+                card[i].style.opacity = 100
+                card[i].style.top = 0
+                card[i].style.cursor = 'pointer'
+                i++;
+                if (i === card.length) {
+                    clearInterval(animateCards);
+                }
+            }, 300);
+        }
+    }
 }
 
 Vue.component('cards', {

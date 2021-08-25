@@ -64,7 +64,7 @@ body {
 #typing-effect-container {
     margin-top: 20vh;
     margin-left: 20px;
-    height: auto;
+    height: 160px;
     margin-right: auto;
 }
 
@@ -82,15 +82,21 @@ body {
     margin-bottom: 40px;
 }
 
-#aboutme-container {
+.aboutme-container {
     transition: ease-in 400ms;
     margin-left: 20px;
     opacity: 0;
-    width: 100%;
 }
 
-#aboutme-container>h3 {
+.aboutme-container>p {
+    font-size: 1.3rem;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.aboutme-container>h3 {
     font-size: 1.8rem;
+    margin-bottom: 50px;
 }
 
 #navbar-mobile {
@@ -121,6 +127,17 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+}
+
+.info {
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+}
+.info>p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 @media(max-width: 1024px) {
@@ -185,18 +202,30 @@ body {
         top: 90vh;
         transform: rotate(-90deg);
     }
-    #aboutme-container {
+    .aboutme-container {
         margin-left: 200px;
         width: 70%;
     }
 
-    #aboutme-container>h3 {
+    .aboutme-container>h3 {
         font-size: 4rem;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
     
-    #aboutme-container>p {
+    .aboutme-container>p {
         font-size: 2rem;
         margin-bottom: 100px;
+    }
+
+    .info {
+        margin-top: 100px;
+        margin-bottom: 10px;
+        display: flex;
+        width: 100%;
+    }
+    .info>p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 }

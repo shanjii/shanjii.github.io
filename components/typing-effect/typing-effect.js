@@ -1,7 +1,7 @@
 const text1 = 'VICTOR_ARO'
 const text2 = 'fullstack developer'
-const text3 = 'MY PROJECTS'
-const timing = 60
+const text3 = 'ABOUT ME'
+const timing = 40
 
 
 Vue.component('typing-effect', {
@@ -41,11 +41,13 @@ Vue.component('typing-effect', {
                 i++;
                 if (i === text3.length) {
                     clearInterval(completeLine2);
+                    document.getElementsByClassName("aboutme-container")[0].style.opacity = "100"
+                    document.getElementsByClassName("aboutme-container")[1].style.opacity = "100"
                 }
             }, timing);
         }
         endEffect = () => {
-            document.getElementById("aboutme-container").style.opacity = "100"
+
             var alternate = true
             setInterval(() => {
                 if (alternate) {
