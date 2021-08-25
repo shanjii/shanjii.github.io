@@ -1,5 +1,6 @@
 :root {
-    --primary: #e7e7e7;
+    --primary: #f0f0f0;
+    --background: #f0f0f0;
     --navbar: #d4d4d4;
     --secondary: #303030;
 }
@@ -43,7 +44,7 @@ body {
     background-image: url('/assets/background.png');
     background-attachment: fixed;
     transition: ease-in, 400ms;
-    background-color: var(--primary);
+    background-color: var(--background);
 }
 
 #banner {
