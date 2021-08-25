@@ -36,9 +36,11 @@ a {
 #app {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 body {
+    display: flex;
     background-image: url('/assets/background.png');
     background-attachment: fixed;
     transition: ease-in, 400ms;
@@ -47,13 +49,22 @@ body {
 
 #banner {
     display: flex;
+    height: 100%;
     flex-direction: column;
     transition: ease-in, 400ms;
 }
 
+#line-pattern{
+    display: none;
+}
+
+#line-pattern-scroll{
+    display: none;
+}
+
 #typing-effect-container {
     margin-top: 20vh;
-    margin-left: 10px;
+    margin-left: 20px;
     height: auto;
     margin-right: auto;
 }
@@ -72,6 +83,16 @@ body {
     margin-bottom: 40px;
 }
 
+#aboutme-container {
+    transition: ease-in 400ms;
+    margin-left: 20px;
+    opacity: 0;
+    width: 100%;
+}
+
+#aboutme-container>h3 {
+    font-size: 1.8rem;
+}
 
 #navbar-mobile {
     display: flex;
@@ -82,7 +103,7 @@ body {
 #lights-mobile {
     position: absolute;
     top: 80px;
-    right: 10px;
+    left: 10px;
 }
 
 #sandbox-container {
@@ -119,9 +140,9 @@ body {
         display: flex;
     }
     #typing-effect-container {
-        margin-top: 5vh;
+        margin-top: 10px;
         margin-left: 200px;
-        height: auto;
+        height: 350px;
         margin-right: auto;
     }
     #typing-effect-container>h1 {
@@ -133,7 +154,6 @@ body {
     #typing-effect-container>h3:last-child {
         font-size: 4rem;
         margin-top: 60px;
-        margin-bottom: 20px;
     }
     #lights-mobile {
         display: none;
@@ -149,12 +169,35 @@ body {
         right: 0;
         transition: ease-in, 400ms;
     }
-    #sandbox-container {
-        margin-top: 50px;
-        margin-left: 200px;
+    #line-pattern {
+        display: flex;
+        width: 10px;
+        position: relative;
+        filter: invert(100);
+        left: 140px;
+        height: auto;
+        background-image: url('./assets/line.png');
     }
-    .sandbox-title {
+    #line-pattern-scroll {
+        display: flex;
+        color: var(--secondary);
+        position: fixed;
+        left: 140px;
+        top: 90vh;
+        transform: rotate(-90deg);
+    }
+    #aboutme-container {
+        margin-left: 200px;
+        width: 70%;
+    }
+
+    #aboutme-container>h3 {
         font-size: 4rem;
-        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #aboutme-container>p {
+        font-size: 2rem;
+        margin-bottom: 100px;
     }
 }

@@ -1,40 +1,40 @@
 window.onload = function () {
-setTimeout(function () {
-var card = document.getElementsByClassName('card-container');
-var i = 0
-var animateCards = setInterval(() => {
-card[i].style.opacity = 100
-card[i].style.top = 0
-card[i].style.cursor = 'pointer'
-i++;
-if (i === card.length) {
-clearInterval(animateCards);
-}
-}, 500);
-}, 1500)
+    setTimeout(function () {
+        var card = document.getElementsByClassName('card-container');
+        var i = 0
+        var animateCards = setInterval(() => {
+            card[i].style.opacity = 100
+            card[i].style.top = 0
+            card[i].style.cursor = 'pointer'
+            i++;
+            if (i === card.length) {
+                clearInterval(animateCards);
+            }
+        }, 500);
+    }, 1700)
 }
 
 Vue.component('cards', {
-data: function () {
-return {
+    data: function () {
+        return {
 
-}
-},
-created: function () {
-this.animate()
-},
-methods: {
-animate: function () {
+        }
+    },
+    created: function () {
+        this.animate()
+    },
+    methods: {
+        animate: function () {
 
-}
-},
-template:
-`
+        }
+    },
+    template:
+        `
 <div id="card-area">
     <a class="href-margin" href="https://github.com/shanjii/Dynamic-Space">
         <section class="card-container">
             <section class="window-label">
-                <span class="label-text">//Dynamic Space</span>
+                <span class="label-text">./dynamic_space</span>
             </section>
             <section class="window.text-container">
                 <h1 class="window-text">About the project:</h1>
@@ -85,7 +85,7 @@ template:
     <a class="href-margin" href="https://github.com/shanjii/League-Checker">
         <section class="card-container">
             <section class="window-label">
-                <span class="label-text">//League Checker</span>
+                <span class="label-text">./league_checker</span>
             </section>
             <section class="window.text-container">
                 <h1 class="window-text">About the project:</h1>
@@ -124,7 +124,7 @@ template:
     <a class="href-margin" href="https://github.com/shanjii/Taagra-Font-Renderer">
         <section class="card-container">
             <section class="window-label">
-                <span class="label-text">//Taagra Font Renderer</span>
+                <span class="label-text">./taagra_font_renderer</span>
             </section>
             <section class="window.text-container">
                 <h1 class="window-text">About the project:</h1>
@@ -163,7 +163,7 @@ template:
     <a class="href-margin" href="https://github.com/shanjii/shanjii.github.io">
         <section class="card-container">
             <section class="window-label">
-                <span class="label-text">//My Portfolio</span>
+                <span class="label-text">./my_portfolio</span>
             </section>
             <section class="window.text-container">
                 <h1 class="window-text">About the project:</h1>

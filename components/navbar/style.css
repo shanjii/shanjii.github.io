@@ -1,5 +1,5 @@
 #navbar {
-    background-color: var(--navbar);
+    background-color: #272727;
     transition: linear, 150ms;
     width: 100px;
     height: 100vh;
@@ -19,11 +19,11 @@
 }
 
 .navbar-item:hover .navbar-text {
-    color: var(--primary);
+    color: #303030;
 }
 
 .navbar-item:hover .svg-color {
-    fill: var(--primary);
+    fill: #303030;
 }
 
 #lights {
@@ -47,7 +47,7 @@
     margin-left: 10px;
     border-radius: 100%;
     border-style: solid;
-    border-color: var(--secondary);
+    border-color: #e7e7e7;
 }
 
 #profile-image:hover {
@@ -78,11 +78,11 @@
     display: none;
     margin-top: auto;
     margin-left: 30px;
-    color: var(--secondary);
+    color: #e7e7e7;
     margin-bottom: auto;
 }
 
 .navbar-item:hover {
-    color: var(--primary);
-    background-color: var(--secondary);
+    color: #303030;
+    background-color: #e7e7e7;
 }

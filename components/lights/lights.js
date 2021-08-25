@@ -26,14 +26,16 @@ Vue.component('lights', {
       }
     },
     themeDark: function () {
-      document.documentElement.style.setProperty('--primary', '#272727');
+      document.documentElement.style.setProperty('--primary', '#303030');
       document.documentElement.style.setProperty('--secondary', '#e7e7e7');
-      document.documentElement.style.setProperty('--navbar', '#303030');
+      document.documentElement.style.setProperty('--navbar', '#272727');
+      document.getElementById("line-pattern").style.filter = "invert(0)"
     },
     themeLight: function () {
       document.documentElement.style.setProperty('--primary', '#e7e7e7');
-      document.documentElement.style.setProperty('--secondary', '#272727');
+      document.documentElement.style.setProperty('--secondary', '#303030');
       document.documentElement.style.setProperty('--navbar', '#d4d4d4');
+      document.getElementById("line-pattern").style.filter = "invert(100)"
     }
   },
   template:
