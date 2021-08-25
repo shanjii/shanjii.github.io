@@ -190,7 +190,7 @@ body {
     #typing-effect-container {
         margin-top: 10px;
         margin-left: 200px;
-        height: 350px;
+        height: auto;
         margin-right: auto;
     }
     #typing-effect-container>h1 {
@@ -202,6 +202,7 @@ body {
     #typing-effect-container>h3:last-child {
         font-size: 4rem;
         margin-top: 80px;
+        margin-bottom: 50px;
     }
     #lights-mobile {
         display: none;
