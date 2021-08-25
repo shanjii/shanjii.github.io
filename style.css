@@ -38,7 +38,7 @@ a {
 body {
     display: flex;
     background-image: url('./assets/dots.png'), url('./assets/background.png');
-  background-position: right bottom, left top;
+    background-position: right bottom, left top;
     background-attachment: fixed;
     transition: ease-in, 400ms;
     background-color: var(--background);
