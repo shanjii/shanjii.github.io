@@ -43,7 +43,7 @@ body {
     background-image: url('./assets/dots.png'), url('./assets/background.png');
     background-position: right bottom, left top;
     transition: ease-in, 400ms;
-    height: 2000px;
+    height: 100%;
     background-color: var(--background);
 }
 
