@@ -25,7 +25,6 @@
     margin: 0;
     font-family: "ProFont";
     color: var(--secondary);
-    user-select: none;
     -webkit-user-drag: none;
 }
 
