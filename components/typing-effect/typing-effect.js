@@ -41,8 +41,12 @@ Vue.component('typing-effect', {
                 i++;
                 if (i === text3.length) {
                     clearInterval(completeLine2);
-                    document.getElementsByClassName("aboutme-container")[0].style.opacity = "100"
-                    document.getElementsByClassName("aboutme-container")[1].style.opacity = "100"
+                    setTimeout(() => {
+                        document.getElementsByClassName("aboutme-container")[0].style.opacity = "100";
+                    }, 200);
+                    setTimeout(() => {
+                        document.getElementsByClassName("aboutme-container")[1].style.opacity = "100";
+                    }, 500);
                 }
             }, timing);
         }

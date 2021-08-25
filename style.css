@@ -96,7 +96,7 @@ body {
 
 .aboutme-container>h3 {
     font-size: 1.8rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #navbar-mobile {
@@ -107,8 +107,8 @@ body {
 
 #lights-mobile {
     position: absolute;
-    top: 80px;
-    left: 10px;
+    top: 75px;
+    left: 20px;
 }
 
 #sandbox-container {
