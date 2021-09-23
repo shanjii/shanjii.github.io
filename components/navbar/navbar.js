@@ -13,9 +13,9 @@ methods: {
 template:
 `
 <section>
-    <section class="navbar-profile">
+    <!-- <section class="navbar-profile">
         <img id="profile-image" src="/assets/siirto_jo.png" alt="">
-    </section>
+    </section> -->
     <div id="navbar-item-container">
         <a href="https://github.com/shanjii">
             <section class="navbar-item">
